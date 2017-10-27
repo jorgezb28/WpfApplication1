@@ -2,7 +2,7 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
 
     <Style TargetType="{x:Type ComboBox}">
-        <Setter Property="Foreground" Value="White" />
+        <Setter Property="Foreground" Value="Transparent" />
         <Setter Property="BorderBrush" Value="Transparent" />
         <Setter Property="Background" Value="Transparent" />
         <Setter Property="SnapsToDevicePixels" Value="true"/>
@@ -12,7 +12,7 @@
         <Setter Property="ScrollViewer.CanContentScroll" Value="true"/>
         <Setter Property="FontSize" Value="16" />
         <Setter Property="FontWeight" Value="Bold" />
-        <Setter Property="MinWidth" Value="60"/>
+        <Setter Property="MinWidth" Value="50"/>
         <Setter Property="MinHeight" Value="32"/>
         <Setter Property="Template">
             <Setter.Value>
