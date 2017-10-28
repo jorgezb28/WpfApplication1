@@ -52,6 +52,82 @@
                 </StackPanel>
             </ComboBoxItem>
         </ComboBox>
+        <ComboBox x:Name="ComboBox_Copy" HorizontalAlignment="Left" Margin="185,59,0,0" VerticalAlignment="Top" Width="36" Height="21">
+            <ComboBoxItem Background="{x:Null}" Foreground="{x:Null}"  
+                FontFamily="Verdana" FontWeight="Bold" BorderThickness="0">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="Resources/ui/tile_1.png" Height="20"/>
+                </StackPanel>
+            </ComboBoxItem>
+            <ComboBoxItem Background="{x:Null}" Foreground="{x:Null}"  
+                FontFamily="Verdana"   FontWeight="Bold" BorderThickness="0">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="Resources/ui/tile_2.png" Height="20"/>
+                </StackPanel>
+            </ComboBoxItem>
+            <ComboBoxItem Background="{x:Null}" Foreground="{x:Null}"  
+                FontFamily="Verdana"   FontWeight="Bold" BorderThickness="0">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="Resources/ui/tile_3.png" Height="20"/>
+                </StackPanel>
+            </ComboBoxItem>
+            <ComboBoxItem Background="{x:Null}" Foreground="{x:Null}"  
+                FontFamily="Verdana"   FontWeight="Bold" BorderThickness="0">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="Resources/ui/tile_4.png" Height="20"/>
+                </StackPanel>
+            </ComboBoxItem>
+            <ComboBoxItem Background="{x:Null}" Foreground="{x:Null}"  
+                FontFamily="Verdana"   FontWeight="Bold" BorderThickness="0">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="Resources/ui/tile_5.png" Height="20"/>
+                </StackPanel>
+            </ComboBoxItem>
+            <ComboBoxItem Background="{x:Null}" Foreground="{x:Null}"  
+                FontFamily="Verdana"   FontWeight="Bold" BorderThickness="0">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="Resources/ui/tile_6.png" Height="20"/>
+                </StackPanel>
+            </ComboBoxItem>
+        </ComboBox>
+        <ComboBox x:Name="ComboBox_Copy1" HorizontalAlignment="Left" Margin="160,85,0,0" VerticalAlignment="Top" Width="36" Height="21">
+            <ComboBoxItem Background="{x:Null}" Foreground="{x:Null}"  
+                FontFamily="Verdana" FontWeight="Bold" BorderThickness="0">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="Resources/ui/tile_1.png" Height="20"/>
+                </StackPanel>
+            </ComboBoxItem>
+            <ComboBoxItem Background="{x:Null}" Foreground="{x:Null}"  
+                FontFamily="Verdana"   FontWeight="Bold" BorderThickness="0">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="Resources/ui/tile_2.png" Height="20"/>
+                </StackPanel>
+            </ComboBoxItem>
+            <ComboBoxItem Background="{x:Null}" Foreground="{x:Null}"  
+                FontFamily="Verdana"   FontWeight="Bold" BorderThickness="0">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="Resources/ui/tile_3.png" Height="20"/>
+                </StackPanel>
+            </ComboBoxItem>
+            <ComboBoxItem Background="{x:Null}" Foreground="{x:Null}"  
+                FontFamily="Verdana"   FontWeight="Bold" BorderThickness="0">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="Resources/ui/tile_4.png" Height="20"/>
+                </StackPanel>
+            </ComboBoxItem>
+            <ComboBoxItem Background="{x:Null}" Foreground="{x:Null}"  
+                FontFamily="Verdana"   FontWeight="Bold" BorderThickness="0">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="Resources/ui/tile_5.png" Height="20"/>
+                </StackPanel>
+            </ComboBoxItem>
+            <ComboBoxItem Background="{x:Null}" Foreground="{x:Null}"  
+                FontFamily="Verdana"   FontWeight="Bold" BorderThickness="0">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="Resources/ui/tile_6.png" Height="20"/>
+                </StackPanel>
+            </ComboBoxItem>
+        </ComboBox>
 
     </Grid>
 </Window>

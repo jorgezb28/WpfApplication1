@@ -2,18 +2,17 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
 
     <Style TargetType="{x:Type ComboBox}">
-        <Setter Property="Foreground" Value="White" />
-        <Setter Property="BorderBrush" Value="Transparent" />
-        <Setter Property="Background" Value="Transparent" />
+        <Setter Property="Foreground" Value="Transparent" />
+        <Setter Property="BorderBrush" Value="Red" />
+        <Setter Property="Background" Value="Black" />
         <Setter Property="SnapsToDevicePixels" Value="true"/>
         <Setter Property="OverridesDefaultStyle" Value="true"/>
         <Setter Property="ScrollViewer.HorizontalScrollBarVisibility" Value="Auto"/>
         <Setter Property="ScrollViewer.VerticalScrollBarVisibility" Value="Auto"/>
         <Setter Property="ScrollViewer.CanContentScroll" Value="true"/>
-        <Setter Property="FontSize" Value="16" />
-        <Setter Property="FontWeight" Value="Bold" />
-        <Setter Property="MinWidth" Value="60"/>
-        <Setter Property="MinHeight" Value="32"/>
+
+        <Setter Property="MinWidth" Value="40"/>
+        <Setter Property="MinHeight" Value="20"/>
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="ComboBox">
@@ -26,6 +25,7 @@
                                 Style="{DynamicResource ComboBoxToggleButton}"
                                 Grid.Column="0"
                                 Focusable="false"
+                                Visibility="Visible"
                                 IsChecked="{Binding Path=IsDropDownOpen,Mode=TwoWay,RelativeSource={RelativeSource TemplatedParent}}"
                                 ClickMode="Press">
                         </ToggleButton>
@@ -35,7 +35,7 @@
                                 Content="{TemplateBinding SelectionBoxItem}"
                                 ContentTemplate="{TemplateBinding SelectionBoxItemTemplate}"
                                 ContentTemplateSelector="{TemplateBinding ItemTemplateSelector}"
-                                Margin="5 0"
+                                Margin="0"
                                 VerticalAlignment="Center"
                                 HorizontalAlignment="Left" />
                         <TextBox x:Name="PART_EditableTextBox"
@@ -43,7 +43,7 @@
                                 Template="{DynamicResource ComboBoxTextBox}"
                                 HorizontalAlignment="Center"
                                 VerticalAlignment="Center"
-                                Margin="3,3,23,3"
+                                Margin="0"
                                 Focusable="True"                               
                                 Visibility="Hidden"
                                 IsReadOnly="{TemplateBinding IsReadOnly}"/>
